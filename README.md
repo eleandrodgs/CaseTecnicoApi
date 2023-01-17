@@ -4,15 +4,22 @@ Projeto de teste de API desenvolvido como parte do processo seletivo no Itáu, q
 
 ## Tecnologias utilizadas 
 C# 6.0
+
 RestSharp 108.0.3
+
 NUnit 3.13.3
 
 ## Estrutura do projeto
 `Base`: Estrutura responsável por acessar as principais entidades envolvidas no teste de API. 
+
 `Tests:` Diretório que contém a implementação dos testes.
+
 `Helpers:` Classes que dão suporte à execução dos testes, com métodos que configuram a execução e validação das requests.
+
 `Hooks:` Estrutura base para a execução com NUnit.
+
 `Models:` Modelos que devem ser utilizados no envio das requests e na validação das responses. 
+
 `Repositories:`Implementação de métodos que constroem objetos a serem utilizados nos testes.
 
 ## Execução do Testes
